@@ -1,0 +1,25 @@
+{
+  "name": "re-toolkit",
+  "version": "0.1.0",
+  "description": "A frontend toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnsandy/re-toolkit.git"
+  },
+  "keywords": [
+    "SCSS",
+    "SASS",
+    "Vue.js"
+  ],
+  "author": "shawn sandy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawnsandy/re-toolkit/issues"
+  },
+  "homepage": "https://github.com/shawnsandy/re-toolkit#readme" 
+ 
+}
