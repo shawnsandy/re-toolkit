@@ -27,10 +27,10 @@ gulp.task('build', function () {
 });
 
 gulp.task('sass', function () {
-    return gulp.src('./src/App/resources/assets/css/**/*.scss', {'base': './src/App/resources/assets/css/'})
+    return gulp.src('./_sass/**/*.scss', {'base': './_sass/'})
         .pipe(sass().on('error', notify.onError('Error processing')))
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('src/App/resources/assets/css/'))
+        .pipe(gulp.dest('builds/'))
         .pipe(notify({
             title: "Pages Notification",
             message: "SCSS files compiled, enjoy",
@@ -40,5 +40,5 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch:sass', function () {
-    gulp.watch('./src/App/resources/assets/css/**/*.scss', ['sass']);
+    gulp.watch('./_sass/css/**/*.scss', ['sass']);
 });
