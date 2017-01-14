@@ -1002,10 +1002,6 @@ clean-css@3.4.x:
     commander "2.8.x"
     source-map "0.4.x"
 
-cleave.js@^0.7.14:
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/cleave.js/-/cleave.js-0.7.14.tgz#d95761a0cd6214e2ecb0be670a759f3e4df5a79d"
-
 cli-cursor@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-1.0.2.tgz#64da3f7d56a54412e59794bd62dc35295e8f2987"
@@ -5720,6 +5716,10 @@ vue@^1.0.20:
   resolved "https://registry.yarnpkg.com/vue/-/vue-1.0.28.tgz#ed2ff07b200bde15c87a90ef8727ceea7d38567d"
   dependencies:
     envify "^3.4.0"
+
+vue@^2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.1.8.tgz#ae30aa86024fccf5535292ce414e7b4c221a1756"
 
 vueify-insert-css@^1.0.0:
   version "1.0.0"
